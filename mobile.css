@@ -1,0 +1,119 @@
+/*barra */
+.header{
+    background-color: rgb(202, 57, 118, 0,74);
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .nav{
+    display: flex;
+    justify-content:space-between;
+    max-width: 992;
+}
+    
+  .nav img{
+    width:280px;
+    height: 70px;
+    padding: 0 40px;
+    line-height: 80px;
+     }
+
+  .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: antiquewhite;
+        list-style: none;
+        font-size: 20px;
+        
+  }
+ .nav1 {
+    margin:25px;
+    border-radius: 10px;
+
+}
+.nav1:hover{
+    background-color: gray;
+   
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(202, 57, 117, 0.356);
+    }
+
+
+.ingreso{
+    font-size: 33px;
+  }
+ 
+
+ .contenedor1{
+    flex-direction: column;
+    justify-content: center;
+    width:600px;
+    height: 800px;
+    
+ }
+ .descripcion h1{
+    font-size: 25px;
+ }
+ .descripcion p{
+    width: 400px;
+    font-size: 20px;  
+ }
+.mision{
+    align-items: center;
+    width: 600px;
+}
+.mision header{
+    font-size: 25px;
+  
+}
+
+.producto{
+    font-size: 25px;
+    justify-content: center;
+    }
+.uno1{
+    font-size: 25px;
+    
+}    
+.contenedor{
+    flex-direction: column;
+    height:auto;
+}
+
+.testimonio{
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+    height: auto;
+}
+
+.final{
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: auto; 
+    margin:1000px 1px;
+}
+
+
+.cubo2 {
+    margin: 25px;
+   flex-direction: column;
+   align-items: center;
+}
+.redes {
+    margin:100px;
+}
+.redes footer{
+    margin:50px;
+}
+
+
+
