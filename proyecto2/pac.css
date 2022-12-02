@@ -1,0 +1,83 @@
+body>table{
+    width: 100%;
+    border-spacing: 25px;
+    border: 10px solid rgb(223, 212, 212);
+    
+}
+
+.mainTable{
+   border-collapse:collapse;
+    border: transparent;
+}
+
+tr:nth-child(even){
+    background-color: rgb(220, 214, 214);
+}
+td th{
+    border: transparent;
+    width: 500px; 
+ 
+}
+
+tbody{
+    font-size: 18px;
+}  
+
+
+h2{
+    
+    font-size: 25px;
+    margin: 20px auto;
+}
+a{ 
+    
+    color:rgb(0, 0, 255);
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+
+input {     
+    width: 300px;  
+    padding: 5px 5px;
+    border-radius: 5px;
+   
+}
+label{
+    font-size: 20px;
+    
+}
+button{
+    display: flex;
+    margin: 20px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
+    button:hover{
+        background-color: grey;
+        color: blue;
+    }
+
+td th{ 
+    border: 2px solid rgb(84, 88, 68);
+    border-radius: 5PX;
+    width: 500px; 
+}
+
+body{
+    background-color: rgba(192, 153, 106, 0.938);
+}
+
+.crud{
+    display: flex;
+    justify-content: center;
+    margin:40px;
+    font-size: 25px;
+    font-family: cursive;
+    text-shadow: 10px 5px 5px rgb(0, 119, 255);
+    border: 30px solid rgb(223, 212, 212);
+    border-radius: 7px;
+    background-color: bisque;
+}

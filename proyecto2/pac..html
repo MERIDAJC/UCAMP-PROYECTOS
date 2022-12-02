@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./pac.css">
+     
+</head>
+<body>
+    
+     <div class="crud">
+    <h1 >CREACION DE CRUD</h1>
+    </div>
+    <table >
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault(); onSubmitform();" >
+                    
+                    <div>
+                        <label>CODIGO</label>
+                        <input type="number" name="empCode" id="empCode" placeholder="codigo de identificacion">
+                    </div>
+                    <div>
+                        <label>NOMBRE</label>
+                        <input type="text" name="fullName" id="fullName" placeholder="Nombre">
+                    </div>
+                    
+                    <div>
+                        <label>PADECIMIENTO</label>
+                        <input type="text" name="padMedico" id="padMedico" placeholder="Padecimiento">
+                    </div>
+                    <div class="buttom" id="buttom">
+                        <button type="submit" value="submit">Aceptar</button>
+                       
+                    </div>
+                </form>
+
+            </td>
+            
+            <td>
+                <h2>RESULTADOS</h2>
+                 
+                <table class="mainTable" id="employeeList">
+                <thead>
+                    <th>CODIGO</th>
+                    <th>NOMBRE</th>
+                    <th>PADECIMIENTO</th>
+                    <th></th>
+                </thead>               
+                
+                <tbody ></tbody>
+                
+
+                </table>
+                
+            </td>
+        </tr>
+
+    </table>
+
+
+
+
+
+
+    <script src="./pac.js"></script>
+</body>
+</html>
